@@ -1,0 +1,594 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<title>gulp 4 верстка</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+</head>
+
+<body>
+	//= template/header.html
+	<section class="main-banner">
+		<div class="main-banner__body">
+			<p class="main-banner__text">Наш 10 летний опыт организации свадебных торжеств <br>
+				Поможет Вам сэкономить до 15% от свадебного бюджета<br>
+				И около 3-х месяцев, самостоятельной подготовки.
+			</p>
+		</div>
+	</section>
+	<section class="about" id="main">
+		<div class="container">
+			<div class="about-content">
+				<div class="about-content__video about-video">
+					<iframe width="100%" height="310" src="https://www.youtube.com/embed/EcqXaKaOdcc" frameborder="0" allow="autoplay; encrypted-media"
+					 allowfullscreen></iframe>
+				</div>
+				<div class="about-content__text about-text">
+					<h1 class="about-text__title title-section">О нас</h1>
+					<span class="about-text__info"><span>Emerald</span> (в переводе с англ.) – изумруд, драгоценный камень с
+						множеством граней, он олицетворяет нашу деятельность, наш подход к каждому мероприятию. </span>
+					<span class="about-text__info"><span>Наша основная задача</span>
+						- услышать пожелания клиента и воплотить в жизнь его мечту, какой бы смелой она ни казалась. При этом, мы
+						абсолютно убеждены, что хороший праздник зависит не от количества вложенных в него денег, а от подхода и
+						профессионализма команды, которая работает над проектом. </span>
+					<span class="about-text__info"><span>Команда Emerald</span>
+						– это целый мир, который дарит мечты.
+					</span>
+					<span class="instagram-text">#МойМирМойEmerald</span>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="services" id="services">
+		<div class="container">
+			<h1 class="services__title title-section--white">Услуги</h1>
+			<div class="services-items-wrap">
+				<div class="services-item services-item--organization">
+					<h2 class="services-item__title">Организация</h2>
+					<p class="services-item__text">У нас не было, нет и никогда не будет готовых предложений с набором опций. Свадьба
+						– это маленькая жизнь со своей историей и душой.</p>
+				</div>
+
+				<div class="services-item services-item--master">
+					<h2 class="services-item__title">Ведущий</h2>
+					<p class="services-item__text">В нашей команде более 30 ведущих разделяющих наше видение на свадебное торжество.
+					</p>
+				</div>
+
+				<div class="services-item services-item--photograph services-item--middle">
+					<h2 class="services-item__title">Фотограф/Видеооператор</h2>
+					<p class="services-item__text">В нашей медиа-команде более 20 специалистов, проверенных нами.
+					</p>
+				</div>
+
+				<div class="services-item services-item--decor services-item--middle">
+					<h2 class="services-item__title">Декор</h2>
+					<p class="services-item__text">Команда декораторов нашей службы торжеств поможет Вам выбрать стиль и цветовое
+						решение Вашей свадьбы.
+					</p>
+				</div>
+
+				<div class="services-item services-item--banket services-item--middle">
+					<h2 class="services-item__title">Банкет</h2>
+					<p class="services-item__text">Наша банкетная служба удовлетворит любые вкусовые предпочтения даже самого
+						изысканного гурмана..
+					</p>
+				</div>
+
+				<div class="services-item services-item--registration">
+					<h2 class="services-item__title">Выездная регистрация</h2>
+					<p class="services-item__text">Выслушав Ваши пожелания, предпочтения и мечту – как должна пройти эта красивая
+						история, мы поможем ее осуществить.
+					</p>
+				</div>
+
+				<div class="services-item services-item--artist">
+					<h2 class="services-item__title">Артисты</h2>
+					<p class="services-item__text">Разнообразить артистами зону велком, украсить банкетный вечер ярким выступлением,
+						поставить «вишенку на торт» в завершении вечера.
+					</p>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="portfolio" id="portfolio">
+		<div class="container">
+			<h2 class="price-title title-section">Портфолио</h2>
+			<div class="poftfolio-item__wrap">
+				<div class="portfolio-item__line">
+					<div class="portfolio-item portfolio-item--width" style="background-image: url('img/portfolio-1.jpg')">
+						<div class="poftfolio-item__search"></div>
+						<div class="portfolio-item__descr">
+							<span>Свадьба Александра и Юлии</span>
+						</div>
+					</div>
+
+					<div class="portfolio-item" style="background-image: url('img/portfolio-2.jpg')">
+						<div class="poftfolio-item__search"></div>
+						<div class="portfolio-item__descr">
+							<span>Свадьба Александра и Юлии</span>
+						</div>
+					</div>
+
+					<div class="portfolio-item" style="background-image: url('img/portfolio-3.jpg')">
+						<div class="poftfolio-item__search"></div>
+						<div class="portfolio-item__descr">
+							<span>Свадьба Александра и Юлии</span>
+						</div>
+					</div>
+				</div>
+
+				<div class="portfolio-item__center">
+					<div class="portfolio-item" style="background-image: url('img/portfolio-4.jpg')">
+						<div class="poftfolio-item__search"></div>
+						<div class="portfolio-item__descr">
+							<span>Свадьба Александра и Юлии</span>
+						</div>
+					</div>
+
+					<div class="portfolio-item portfolio-item--width" style="background-image: url('img/portfolio-5.jpg')">
+						<div class="poftfolio-item__search"></div>
+						<div class="portfolio-item__descr">
+							<span>Свадьба Александра и Юлии</span>
+						</div>
+					</div>
+
+					<div class="portfolio-item portfolio-item--height" style="background-image: url('img/portfolio-6.jpg')">
+						<div class="poftfolio-item__search"></div>
+						<div class="portfolio-item__descr">
+							<span>Свадьба Александра и Юлии</span>
+						</div>
+					</div>
+
+					<div class="portfolio-item portfolio-item--width" style="background-image: url('img/portfolio-7.jpg')">
+						<div class="poftfolio-item__search"></div>
+						<div class="portfolio-item__descr">
+							<span>Свадьба Александра и Юлии</span>
+						</div>
+					</div>
+
+					<div class="portfolio-item" style="background-image: url('img/portfolio-8.jpg')">
+						<div class="poftfolio-item__search"></div>
+						<div class="portfolio-item__descr">
+							<span>Свадьба Александра и Юлии</span>
+						</div>
+					</div>
+				</div>
+
+				<div class="portfolio-item__line">
+					<div class="portfolio-item portfolio-item--width" style="background-image: url('img/portfolio-9.jpg')">
+						<div class="poftfolio-item__search"></div>
+						<div class="portfolio-item__descr">
+							<span>Свадьба Александра и Юлии</span>
+						</div>
+					</div>
+
+					<div class="portfolio-item" style="background-image: url('img/portfolio-10.jpg')">
+						<div class="poftfolio-item__search"></div>
+						<div class="portfolio-item__descr">
+							<span>Свадьба Александра и Юлии</span>
+						</div>
+					</div>
+
+					<div class="portfolio-item" style="background-image: url('img/portfolio-11.jpg')">
+						<div class="poftfolio-item__search"></div>
+						<div class="portfolio-item__descr">
+							<span>Свадьба Александра и Юлии</span>
+						</div>
+					</div>
+				</div>
+				<div class="portfolio-instagram">
+					<span class="portfolio-instagram__text">Следите за нами в инстаграмме</span>
+					<span class="instagram-text">#МойМирМойEmerald</span>
+				</div>
+			</div>
+		</div>
+	</section>
+
+
+	<section class="price" id="price">
+		<div class="container">
+			<h2 class="price-title title-section--white">Стоимость</h2>
+			<div class="price-content">
+				<div class="price-slider__controls price-prev__arrow"></div>
+				<div class="price-slider__controls price-next__arrow"></div>
+				<div class="js-price-item__wrap">
+					<section class="price-content__item price-item price-item--one">
+						<span class="price-item__title">Свадебный <br> распорядитель</span>
+						<p class="price-descr">Ваш личный помощник, который решает все организационно-технический вопросы в день Вашего
+							торжества:</p>
+						<ul class="price-list">
+							<li class="price-list__item">– Встречает и провожает гостей</li>
+							<li class="price-list__item">– Общается с банкетной службой ресторана</li>
+							<li class="price-list__item">– Следит за работой свадебного персонала (фото, видео, артисты, ведущий, декоратор)</li>
+							<li class="price-list__item">– Отвечает за зону выездной регистрации</li>
+							<li class="price-list__item">–Отвечает на все волнующие вопросы</li>
+						</ul>
+						<div class="price-item__number">
+							<span>17 000 &#8381;</span>
+						</div>
+					</section>
+
+					<section class="price-content__item price-item price-item--two">
+						<span class="price-item__title">Организация <br> свадьбы</span>
+						<p class="price-descr">Полное сопровождение «предсвадебного путешествия» для того, чтобы подготовка доставила
+							удовольствие:</p>
+						<ul class="price-list">
+							<li class="price-list__item">– Уделим внимание всем деталям,
+								поможем оптимизировать бюджет, порекомендуем надежных свадебных специалистов, наполним торжество
+								Вашей душой. </li>
+							<li class="price-list__item">–В день свадьбы на площадке работают: свадебный распорядитель + координатор.</li>
+							<li class="price-list__item">Вы отдыхаете!</li>
+						</ul>
+
+						<div class="price-item__number">
+							<span>37 000 &#8381;</span>
+						</div>
+					</section>
+
+					<section class="price-content__item price-item price-item--three">
+						<span class="price-item__title">PREMIUM <br> Организация свадьбы</span>
+						<p class="price-descr">Это предложение идеально подходит для свадебных торжеств, если приглашённых гостей будет
+							100 и более человек.</p>
+						<ul class="price-list">
+							<li class="price-list__item">– Если в расписании свадебного дня запланирована насыщенная программа с
+								развлечениями и артистами.</li>
+							<li class="price-list__item">– С утра ВАС будет сопровождать координатор, который возьмет на себя хлопоты первой
+								половины дня. </li>
+							<li class="price-list__item">–В день свадьбы на площадке работают: свадебный распорядитель+2 координатора.</li>
+						</ul>
+						<div class="price-item__number">
+							<span>57 000 &#8381;</span>
+						</div>
+					</section>
+				</div>
+			</div>
+			<div class="price-order">
+				<p class="price-order__text">Подробная консультация по телефону:<a href="tel:74951955722"></a> +7 (495) 195-57-22
+					или оставьте заявку:</p>
+				<a href="javascript:void(0)" class="g-btn price-btn">Оставить заявку</a>
+			</div>
+		</div>
+	</section>
+
+	<section class="team" id="team">
+		<div class="container">
+			<div class="team-content">
+				<h2 class="title-section">Наша команда</h2>
+				<div class="team-leader">
+					<div class="team-photo team-photo--leader"></div>
+					<div class="team-leader__info">
+						<span class="team-leader__title">Алиса Истомина</span>
+						<span class="team-leader__work">Основатель Группы компаний Emerald</span>
+						<span class="team-leader__work">Генеральный директор<br>
+							Организатор, Ведущая
+						</span>
+						<p class="team-leader__text">«Наша миссия - нести в массы культуру мероприятий. Любое торжество - свадьба,
+							корпоратив или день рождение - это не банкет с тамадой и набором артистов. Это гораздо глубже, больше. Это
+							эмоции и ощущения, с которыми человек уходит домой, поэтому у каждого нашего праздника есть личная история и
+							душа».</p>
+					</div>
+				</div>
+				<div class="team-content__item team-item team-item--2">
+					<div class="team-photo"></div>
+					<div class="team-text">
+						<span class="team-title">Наталья Гудошникова</span>
+						<span class="team-work">Исполнительный директор Группы компаний Emerald</span>
+						<span class="team-work">Руководитель отдела организации
+							Свадебный распорядитель</span>
+					</div>
+				</div>
+
+				<div class="team-content__item team-item team-item--3">
+					<div class="team-photo"></div>
+					<div class="team-text">
+						<span class="team-title">Оксана Абросимова</span>
+						<span class="team-work">Организатор
+							Свадебный распорядитель</span>
+						<span class="team-work">Координатор
+						</span>
+					</div>
+				</div>
+
+				<div class="team-content__item team-item team-item--4">
+					<div class="team-photo"></div>
+					<div class="team-text">
+						<span class="team-title">Мария Ершова</span>
+						<span class="team-work">Руководитель банкетной службы </span>
+					</div>
+				</div>
+
+				<div class="team-content__item team-item team-item--5">
+					<div class="team-photo"></div>
+					<div class="team-text">
+						<span class="team-title">Сергей Прудников</span>
+						<span class="team-work">Руководитель направления
+							«Emerald media»</span>
+						<span class="team-work">Фотограф</span>
+					</div>
+				</div>
+
+				<div class="team-content__item team-item team-item--6">
+					<div class="team-photo"></div>
+					<div class="team-text">
+						<span class="team-title">Элона Губаз</span>
+						<span class="team-work">Руководитель направления
+							«Декор от Emerald»</span>
+						<span class="team-work">Декоратор-флорист</span>
+					</div>
+				</div>
+
+
+				<div class="team-content__item team-item team-item--7">
+					<div class="team-photo"></div>
+					<div class="team-text">
+						<span class="team-title">Артур Васильев</span>
+						<span class="team-work">Режиссер-постановщик мероприятий</span>
+						<span class="team-work">Сценарист</span>
+						<span class="team-work">Ведущий</span>
+					</div>
+				</div>
+
+				<div class="team-content__item team-item team-item--8">
+					<div class="team-photo"></div>
+					<div class="team-text">
+						<span class="team-title">Ольга Меньшикова</span>
+						<span class="team-work">Руководитель направления
+							«Emerald детям»</span>
+					</div>
+				</div>
+
+				<div class="team-content__item team-item team-item--9">
+					<div class="team-photo"></div>
+					<div class="team-text">
+						<span class="team-title">Руслан Чачанов</span>
+						<span class="team-work">Руководитель направления по разработке корпоративных программ и тимбилдингов.</span>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="partner" id="partner">
+		<div class="container">
+			<div class="partner-content">
+				<h2 class="title-section">Наша площадка-партнер –<br>
+					Кафе-шатры «Русская сказка»</h2>
+				<div class="partner-photo__wrap">
+					<div class="partner-photo" style="background-image: url('img/partner-1.jpg')"></div>
+					<div class="partner-photo partner-photo--width" style="background-image: url('img/partner-2.jpg')"></div>
+					<div class="partner-photo" style="background-image: url('img/partner-3.jpg')"></div>
+				</div>
+				<div class="partner-advantages__line">
+					<div class="partner-advantages__item partner-advantages__item--1">
+						<span class="partner-advantages__number">1</span>
+						<p class="partner-advantages__text">– Располагается <strong>в Национальном конном парке «Русь»</strong></p>
+					</div>
+					<div class="partner-advantages__item partner-advantages__item--2">
+						<span class="partner-advantages__number">2</span>
+						<p class="partner-advantages__text">– Есть возможность размещения на территории: молодоженам в <strong>двухкомнатном
+								люксе</strong>, а остальным гостям мы можем предложить на выбор: <strong>гостиничные номера, либо коттеджи</strong></p>
+					</div>
+				</div>
+
+				<div class="partner-advantages__line">
+					<div class="partner-advantages__item partner-advantages__item--3">
+						<span class="partner-advantages__number">3</span>
+						<p class="partner-advantages__text">– На территории комплекса размещены <strong>3 белоснежных арочных шатра
+								площадью 200кв. м</strong></p>
+					</div>
+					<div class="partner-advantages__item partner-advantages__item--4">
+						<span class="partner-advantages__number">4</span>
+						<p class="partner-advantages__text">– Шатры имеют <strong>удобный заезд</strong> и <strong>собственную парковку</strong></p>
+					</div>
+				</div>
+				<div class="partner-more">
+					<span class="partner-more__text">Подробнее о площадке:</span>
+					<a href="javascript:void(0)" class="g-btn g-btn--pdf">Презентация PDF</a>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="reviews" id="reviews">
+		<div class="container">
+			<div class="reviews-content">
+				<h2 class="title-section--white">Отзывы</h2>
+				<div class="reviews-slider">
+					<div class="reviews-slider__controls reviews-prev__arrow"></div>
+					<div class="reviews-slider__controls reviews-next__arrow"></div>
+					<div class="js-reviews-slider">
+						<div class="reviews-slider__item">
+							<div class="reviews-item">
+								<div class="reviews-author">
+									<div class="reviews-photo reviews-photo--1"></div>
+									<span class="reviews-author__name">Наталья,</span>
+									<span class="reviews-author__name">Владимир</span>
+									<span class="reviews-author__date">7 мая 2016</span>
+								</div>
+								<div class="reviews-text">
+									<p class="reviews-text__info">
+										"Дорогие Алиса и Наташа, хочется поблагодарить вас и вашу команду за организацию нашей свадьбы! <span class="g-text-bold">Вы
+											очень тёплые, позитивные, мастера своего дела!</span> К сожалению, не удалось сказать слова благодарности на
+										свадьбе, при торжественной обстановке, но думаю, мы ещё встретимся с вами, повод для праздника найдём).
+										Процветания вам, только положительных эмоций, не капризных молодожёнов))"
+									</p>
+								</div>
+							</div>
+
+							<div class="reviews-item">
+								<div class="reviews-author">
+									<div class="reviews-photo reviews-photo--2"></div>
+									<span class="reviews-author__name">Артем,</span>
+									<span class="reviews-author__name">Анна</span>
+									<span class="reviews-author__date">24 июня 2016</span>
+								</div>
+								<div class="reviews-text">
+									<p class="reviews-text__info">
+										"В преддверии своей свадьбы я волновалась, как и большинство невест, и понимала, что она вряд ли может быть
+										идеальной.
+										Но! Я глубоко ошибалась!
+										<span class="g-text-bold">Свадьба может быть идеальной, солнечной, прекрасной, искренней и весёлой, потому
+											что у нас она такой и была!</span> Этот день стал для нас с теперь уже мужем одним из самых счастливых дней
+										в жизни.
+										И всё благодаря прекрасным организаторам Наталье и Алисе."
+									</p>
+								</div>
+							</div>
+
+						</div>
+						<div class="reviews-slider__item">
+							<div class="reviews-item">
+								<div class="reviews-author">
+									<div class="reviews-photo reviews-photo--3"></div>
+									<span class="reviews-author__name">Артур,</span>
+									<span class="reviews-author__name">Кристина</span>
+									<span class="reviews-author__date">14 мая 2016</span>
+								</div>
+								<div class="reviews-text">
+									<p class="reviews-text__info">
+										"Время для благодарностей!<span class="g-text-bold">Страна должна знать своих героев в лицо!</span>
+										Эти две волшебные девочки делают любой праздник сказкой! Самые добрые, внимательные, отзывчивые организаторы
+										на свете! Ребята, мы счастливы, что вы были с нами! Вы потрясающая команда! Команда профессиональная,
+										понимающая, внимательная! Столько потрясающих людей вместе - это клад!!! Спасибо за лучший день в нашей
+										жизни!!! "
+									</p>
+								</div>
+							</div>
+
+							<div class="reviews-item">
+								<div class="reviews-author">
+									<div class="reviews-photo reviews-photo--4"></div>
+									<span class="reviews-author__name reviews-author__name--inline">Юра,</span>
+									<span class="reviews-author__name reviews-author__name--inline">Таня</span>
+									<span class="reviews-author__date">2 июля 2016</span>
+								</div>
+								<div class="reviews-text">
+									<p class="reviews-text__info">
+										Эти две волшебные девочки делают любой праздник сказкой! Самые добрые, внимательные, отзывчивые организаторы
+										на свете! Ребята, мы счастливы, что вы были с нами! Вы потрясающая команда! Команда профессиональная,
+										понимающая, внимательная! Столько потрясающих людей вместе - это клад!!! Спасибо за лучший день в нашей
+										жизни!!! "
+									</p>
+								</div>
+							</div>
+						</div>
+
+						<div class="reviews-slider__item">
+							<div class="reviews-item">
+								<div class="reviews-author">
+									<div class="reviews-photo reviews-photo--3"></div>
+									<span class="reviews-author__name">Артур,</span>
+									<span class="reviews-author__name">Кристина</span>
+									<span class="reviews-author__date">14 мая 2016</span>
+								</div>
+								<div class="reviews-text">
+									<p class="reviews-text__info">
+										"Время для благодарностей!<span class="g-text-bold">Страна должна знать своих героев в лицо!</span>
+										Эти две волшебные девочки делают любой праздник сказкой! Самые добрые, внимательные, отзывчивые организаторы
+										на свете! Ребята, мы счастливы, что вы были с нами! Вы потрясающая команда! Команда профессиональная,
+										понимающая, внимательная! Столько потрясающих людей вместе - это клад!!! Спасибо за лучший день в нашей
+										жизни!!! "
+									</p>
+								</div>
+							</div>
+
+							<div class="reviews-item">
+								<div class="reviews-author">
+									<div class="reviews-photo reviews-photo--4"></div>
+									<span class="reviews-author__name">Юра,</span>
+									<span class="reviews-author__name">Таня</span>
+									<span class="reviews-author__date">2 июля 2016</span>
+								</div>
+								<div class="reviews-text">
+									<p class="reviews-text__info">
+										Эти две волшебные девочки делают любой праздник сказкой! Самые добрые, внимательные, отзывчивые организаторы
+										на свете! Ребята, мы счастливы, что вы были с нами! Вы потрясающая команда! Команда профессиональная,
+										понимающая, внимательная! Столько потрясающих людей вместе - это клад!!! Спасибо за лучший день в нашей
+										жизни!!! "
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="other" id="other">
+		<div class="container">
+			<div class="other-content">
+				<h2 class="title-section">Наши не свадебные проекты</h2>
+				<span class="other-descr">Также, мы организуем такие мероприятия, как:</span>
+				<div class="other-item__wrap">
+					<div class="other-item other-item--1">
+						<span class="other-item__title">Корпоративы</span>
+					</div>
+
+					<div class="other-item other-item--2">
+						<span class="other-item__title">Дни рождения,<br> юбилеи</span>
+					</div>
+
+					<div class="other-item other-item--3">
+						<span class="other-item__title">Выпускные вечера,детские праздники </span>
+					</div>
+				</div>
+				<div class="other-info">
+					<p>
+						Узнать подробнее можете по телефону<a href="tel:74951955722"> +7 (495) 195-57-22</a>
+						или заполните форму на следующем экране
+					</p>
+					<img src="img/svg/arrow-down.svg" class="other-icon">
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="secrets" id="secrets">
+		<div class="container">
+			<h2 class="title-section--white">Секреты организации идеальной свадьбы</h2>
+			<div class="secrets-content">
+				<div class="secrets-text">
+					<span class="secrets-text__title">На консультации мы расскажем:</span>
+					<ul class="secrets-list">
+						<li class="secrets-list__item">Как сэкономить до 15% свадебного бюджета.</li>
+						<li class="secrets-list__item">Как выбрать и проверить ведущего, фотографа, оператора, декоратора.
+							Какие вопросы задавать на собеседовании.</li>
+						<li class="secrets-list__item">Какую площадку выбрать и как обойти пробковый сбор. </li>
+						<li class="secrets-list__item">
+							Что лучше, выездная регистрация или ЗАГС.</li>
+						<li class="secrets-list__item">
+							Почему, стоит избегать агентства, которые работают за %?</li>
+					</ul>
+				</div>
+				<div class="form form--secrets">
+					<form>
+						<p class="form-title">Консультация свадебного специалиста с опытом организации более 200 свадеб!</p>
+						<div class="form-group form-group--name">
+							<input type="text" name="name" placeholder="Ваше имя" class="g-input form--name">
+						</div>
+						<div class="form-group form-group--phone">
+							<input type="text" name="name" placeholder="Номер телефона" class="g-input form--number">
+						</div>
+						<div class="form-group form-group--submit">
+							<input type="submit" value="Получить консультацию" class="g-btn form--submit">
+						</div>
+					</form>
+					<div class="success-form">
+						<span class="success-text__bold">Ваша заявки принята!</span>
+						<span class="success-text">В ближайшее время мы с вами свяжемся.</span>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	//= template/footer.html
+	<script type="text/javascript" src="js/main.js"></script>
+</body>
+
+</html>
